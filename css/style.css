@@ -1,0 +1,24 @@
+@font-face {
+   font-family: testecattive;
+   src: url(00_font/testecattive.ttf);
+   /*font-weight: bold;*/
+}
+
+
+.box_textarea{
+    margin-top: 150px;
+}
+
+#txtarea_diventacattivo{
+    margin-bottom: 10px;
+}
+
+.box_prt_diventacattivo{
+    font-family: testecattive;
+    font-size: 200px;
+    line-height: 0.5;
+    margin-left: 20px;
+}
+
+#prt_diventacattivo{
+}

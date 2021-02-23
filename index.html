@@ -1,24 +1,28 @@
 <html>
     <head>
-        <link href="css/cssreset.css" rel="stylesheet" type="text/css">
-        
-        <link href="css/stleprovafont.css" rel="stylesheet" type="text/css">
-        
+        <!-- <link href="css/cssreset.css" rel="stylesheet" type="text/css"> -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
         <title>teste.cattive</title>
-    
+        <meta charset="UTF-8">
     </head>
     <body>
         <div class="contenitore">
         <center>
         
-  <div class="contenuto">
-      <textarea rows="35" cols="40"></textarea><br>
-      <button type="button" onclick="document.write()">diventa cattivo</button>
+  <div class="box_textarea">
+      <textarea id = "txtarea_diventacattivo" rows="10" cols="50"></textarea><br>
+      <button onclick="diventacattivo()">diventa cattivo</button>
   </div> 
+
+  <div class = "box_prt_diventacattivo">
+    <p id = "prt_diventacattivo"></p>
+  </div>
        
             </center>
         </div>
     
+
+    <script src="script.js"></script>
     </body>
 
 </html>
